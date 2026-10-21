@@ -1,0 +1,128 @@
+.body{
+    background-color: mediumseagreen;
+}
+.header{
+    background-color: antiquewhite;
+    border: 5px solid rgb(0, 0, 0);
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(2, 128, 128);
+}
+.menu li{
+    list-style: lower-greek;
+}
+.menu li a{
+    color: rgb(124, 192, 248);
+    text-decoration: none;
+}
+.menu li a:hover{
+    background-color: rgb(115, 179, 32);
+    text-decoration: underline;
+}
+.contenidoprincipal{
+    background-color: antiquewhite;
+    border: 5px solid rgb(0, 0, 0);
+    margin-top: 10px ;
+    margin-bottom: 10px ;
+}
+.textoinicio{
+    color: rgb(124, 192, 248);
+    text-align: center;
+}
+.imagenes{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.imagen{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    width: 30%;
+    padding: 2px;
+}
+.imagen img{
+    margin-bottom: 20px;
+    border: 5px solid black
+}
+.uno{
+    width: 100% ;
+    height: 400px;
+    border-radius: 5px;
+}
+.piecito{
+    background-color: antiquewhite;
+    border: 5px solid rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: rgb(2, 128, 128);
+}
+.piecito h3{
+    margin-top: 35px ;
+}
+.dosmenu{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    color: rgb(2, 128, 128);
+}
+.dosmenu li{
+    list-style: lower-greek;
+}
+.dosmenu li a{
+    color: rgb(124, 192, 248);
+    text-decoration: none;
+}
+.dosmenu li a:hover{
+    background-color: rgb(115, 179, 32);
+    text-decoration: underline;
+}
+.textodos{
+    text-align: center;
+    color: rgb(124, 192, 248);
+}
+.formularios{
+    background-color: rgb(190, 251, 111);
+    border: 5px solid rgb(0,0,0);
+    padding: 5px;
+    margin: 10px 120px 10px 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: rgb(2, 128, 128);
+}
+.formularios form{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.boton{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 220px;
+    height: 30px;
+}
+.mapayvideo{
+    display: flex;
+    flex-direction: row; 
+    align-items: center;    
+    text-align: center;   
+    justify-content: space-around;    
+}
+.link iframe{
+    width: 500px;
+    height: 500px;
+    border: 5px solid black;
+    border-radius: 5px;
+}
+.link p{
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
